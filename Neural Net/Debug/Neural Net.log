@@ -1,0 +1,4 @@
+﻿  ANN.cpp
+C:\Users\srdie\Desktop\Neural Net\Neural Net\ANN.cpp(2078,14): warning C4244: 'initializing': conversion from 'time_t' to 'long', possible loss of data
+C:\Users\srdie\Desktop\Neural Net\Neural Net\ANN.cpp(2096,13): warning C4244: 'initializing': conversion from 'time_t' to 'long', possible loss of data
+  Neural Net.vcxproj -> C:\Users\srdie\Desktop\Neural Net\Debug\Neural Net.exe
