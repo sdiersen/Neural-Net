@@ -1,6 +1,7 @@
 #pragma once
 /*
 	This is the container for all attributes for the Neural Network
+	Attribs is a vector that contains all attributes
 */
 #include <vector>
 #include "Attrib.h"

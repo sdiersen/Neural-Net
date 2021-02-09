@@ -1,5 +1,7 @@
 #pragma once
-
+/*
+	This is the hub of data in the network. Each node is a connection point in the ANN
+*/
 #include <vector>
 #include "Links.h"
 
