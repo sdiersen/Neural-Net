@@ -787,7 +787,7 @@ void CNeuralNetView::OnBnClickedNnfAttributeadd()
 		dlg.fri = fri;
 
 		INT_PTR nRet = dlg.DoModal();
-		if (nRet = IDOK)
+		if (nRet == IDOK) //changed from nRet = IDOK to nRet == IDOK on 2/12/21
 		{
 			//get the values
 			name = dlg.name;
@@ -832,7 +832,7 @@ void CNeuralNetView::OnBnClickedNnfAttributeedit()
 		dlg.fri = fri;
 
 		INT_PTR nRet = dlg.DoModal();
-		if (nRet = IDOK)
+		if (nRet == IDOK) //changed from nRet = IDOK to nRet == IDOK on 2/12/21
 		{
 			//get the values
 			name = dlg.name;

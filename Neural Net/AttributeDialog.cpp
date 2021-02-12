@@ -43,7 +43,7 @@ void CAttributeDialog::DoDataExchange(CDataExchange* pDX)
 	DDX_Text(pDX, IDC_EA_ATTRIBUTEERROR, error);
 }
 
-
+//TODO Add the ok button control to save the new attribute for this ANN
 BEGIN_MESSAGE_MAP(CAttributeDialog, CDialogEx)
 	ON_EN_CHANGE(IDC_EA_ATTRIBUTENAME, &CAttributeDialog::OnEnChangeEaAttributename)
 	ON_EN_CHANGE(IDC_EA_ATTRIBUTEMIN, &CAttributeDialog::OnEnChangeEaAttributemin)
